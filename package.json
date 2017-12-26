@@ -39,7 +39,7 @@
     "p-promise": "^0.4.8",
     "package-json-to-readme": "^1.0.1",
     "replify": "^1.2.0",
-    "replpad": "^0.12.0",
+    "replpad": "^0.14.0",
     "shimmer": "^1.0.0",
     "sprintf-js": "^1.0.2",
     "stackup": "0.0.5",
