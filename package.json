@@ -6,7 +6,9 @@
   "scripts": {
     "prepublish": "npm run meta",
     "meta": "node lib/meta.js",
-    "postinstall": "backfill"
+    "postinstall": "backfill",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -44,12 +46,14 @@
     "sprintf-js": "^1.0.2",
     "stackup": "0.0.5",
     "standard-error": "^1.1.0",
-    "superagent": "^0.20.0",
-    "zeroclipboard": "^2.1.6"
+    "superagent": "^2.0.0",
+    "zeroclipboard": "^2.1.6",
+    "snyk": "^1.85.0"
   },
   "devDependencies": {
     "backfill": "^1.0.1",
     "find-root": "^0.1.1",
     "pkgs": "^1.2.0"
-  }
+  },
+  "snyk": true
 }
