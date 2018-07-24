@@ -44,7 +44,7 @@
     "sprintf-js": "^1.0.2",
     "stackup": "0.0.5",
     "standard-error": "^1.1.0",
-    "superagent": "^0.20.0",
+    "superagent": "^2.0.0",
     "zeroclipboard": "^2.1.6"
   },
   "devDependencies": {
